@@ -10,7 +10,7 @@ const Shop: React.FC = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const navigate = useNavigate();
   
-  const ITEMS_PER_PAGE = 3;
+  const ITEMS_PER_PAGE = 12;
 
   const categories = ['All', 'Nature', 'Symbolic', 'Anime'];
   const sortOptions = [
