@@ -20,7 +20,7 @@ const Gallery: React.FC = () => {
   const [lightboxContent, setLightboxContent] = useState<{ images: GalleryImage[]; initialIndex: number; } | null>(null);
   const [currentPage, setCurrentPage] = useState(1);
   
-  const ITEMS_PER_PAGE = 3;
+  const ITEMS_PER_PAGE = 12;
 
   const categories = ['All', 'Nature', 'Symbolic', 'Anime', 'Commissions'];
 
