@@ -181,7 +181,6 @@ const Product: React.FC = () => {
                         className="w-full h-full object-cover rounded-lg"
                         draggable={false}
                         loading="lazy"
-                        loading="lazy"
                       />
                     )}
                   </button>
